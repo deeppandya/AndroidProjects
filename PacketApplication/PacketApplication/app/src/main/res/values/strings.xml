@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PacketApplication</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_temp">TempActivity</string>
+    <string name="title_activity_second_tab">SecondTab</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_temp_map">TempMapActivity</string>
+    <string name="title_activity_login__dialog">Login_Dialog</string>
+    <string name="title_activity_tempactivity">tempactivity</string>
+</resources>

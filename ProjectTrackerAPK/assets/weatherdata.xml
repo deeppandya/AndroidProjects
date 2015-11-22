@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+	<weatherdata>
+	    <id>1</id>
+		<city>CMAS</city>
+       	<tempc>12:00HRS</tempc>
+       	<tempf>32°F</tempf>
+		<condition>CMAS#1213</condition>
+		<windspeed>A Product for the Gaming and Wagering Industry. </windspeed>
+		<icon>snowing</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>2</id>
+		<city>PARTERM</city>
+		<tempc>17:00HRS</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition>PART#0001</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>thunder</icon>
+	</weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>FOOTPRINTS</city>
+		<tempc>No Data</tempc>
+       	<tempf>41°F</tempf>
+		<condition>FOOT#1234</condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>rainy</icon>
+	</weatherdata>
+</Weather>

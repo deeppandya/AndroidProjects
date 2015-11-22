@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegisterUser"
+    android:background="#FFFFFDFC" >
+
+	<TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         >
+	    <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <TextView 
+	            android:id="@+id/lblUserID"
+	            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:inputType="none"
+                android:text="Email-ID"
+                android:textColor="#3B5998"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp" />
+         </TableRow>>   
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <EditText 
+	            android:id="@+id/txtUserID"
+	            android:ems="15"
+            	android:enabled="true"
+             	android:inputType="textEmailAddress"
+             	android:textSize="16dp"
+             	android:textColor="#3B5998"
+             	android:maxLength="50"/>
+        </TableRow>
+        
+        
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <TextView 
+	            android:id="@+id/lblPassword"
+	            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:inputType="none"
+                android:text="Password"
+                android:textColor="#3B5998"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp" />
+         </TableRow>>   
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <EditText 
+	            android:id="@+id/txtPassword"
+	            android:ems="15"
+            	android:enabled="true"
+             	android:inputType="textPassword"
+             	android:textSize="16dp"
+             	android:textColor="#3B5998"
+             	android:maxLength="10"/>
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <TextView 
+	            android:id="@+id/lblConfirmPassword"
+	            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:inputType="none"
+                android:text="Confirm Password"
+                android:textColor="#3B5998"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp" />
+         </TableRow>>   
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <EditText 
+	            android:id="@+id/txtConfirmPassword"
+	            android:ems="15"
+            	android:enabled="true"
+             	android:inputType="textPassword"
+             	android:textSize="16dp"
+             	android:textColor="#3B5998"
+             	android:maxLength="20"/>
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <TextView 
+	            android:id="@+id/lblFirstName"
+	            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:inputType="none"
+                android:text="First Name"
+                android:textColor="#3B5998"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp" />
+         </TableRow>>   
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <EditText 
+	            android:id="@+id/txtFirstName"
+	            android:ems="15"
+            	android:enabled="true"
+             	android:inputType="textPersonName"
+             	android:textSize="16dp"
+             	android:textColor="#3B5998"
+             	android:maxLength="20"/>
+        </TableRow>
+        
+        
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <TextView 
+	            android:id="@+id/lblLastName"
+	            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:inputType="none"
+                android:text="Last Name"
+                android:textColor="#3B5998"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp" />
+         </TableRow>>   
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <EditText 
+	            android:id="@+id/txtLastName"
+	            android:ems="15"
+            	android:enabled="true"
+             	android:inputType="textPersonName"
+             	android:textSize="16dp"
+             	android:textColor="#3B5998"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <TextView 
+	            android:id="@+id/lblAbbreviation"
+	            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:inputType="none"
+                android:text="Abbreviation"
+                android:textColor="#3B5998"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp" />
+         </TableRow>>   
+        <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <EditText 
+	            android:id="@+id/txtAbbreviation"
+	            android:ems="15"
+            	android:enabled="true"
+             	android:inputType="textPersonName"
+             	android:textSize="16dp"
+             	android:textColor="#3B5998"
+             	android:maxLength="3"/>
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+	        <Button
+ 		 	    android:id = "@+id/btnRegister"
+ 		 	    android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:text="Register"
+	            android:background="#3B5998"
+	            android:layout_marginLeft="2dp"
+	            android:textColor="#FFFFFDFC"
+	            android:layout_marginTop="15dp"
+	            />
+         </TableRow>  
+	</TableLayout>
+
+</RelativeLayout>

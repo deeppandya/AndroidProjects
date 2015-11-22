@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Restaurant Owner App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_temp">Temp</string>
+    <string name="next">next</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_first">FirstActivity</string>
+
+    <!-- Menu names -->
+    <string name="menu_home">Home</string>
+    <string name="menu_request_delivery">Request Delivery</string>
+    <string name="menu_request_pre_delivery">Request Pre Delivery</string>
+    <string name="menu_track_driver">Track Driver</string>
+    <string name="menu_history">History</string>
+    <string name="menu_sign_out">Sign Out</string>
+
+
+    <string name="deliveryaddress">Delivery Address</string>
+    <string name="enterDate">Select date and time</string>
+</resources>

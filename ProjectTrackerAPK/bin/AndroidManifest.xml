@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weatherdisplay"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.weatherdisplay.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.weatherdisplay.SampleActivity"
+            android:configChanges="orientation"
+            android:label="Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.weatherdisplay.DateTimePicker"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_date_time_picker"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.weatherdisplay.ListViewActivity"
+            android:label="@string/title_activity_list_view"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.weatherdisplay.RegisterUser"
+            android:label="@string/title_activity_register_user"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.weatherdisplay.ShareActionProvider"
+            android:label="@string/title_activity_share_action_provider" >
+        </activity>
+        <activity
+            android:name="com.example.weatherdisplay.SOAPCall"
+            android:label="@string/title_activity_soapcall" >
+        </activity>
+                <activity
+            android:name="com.example.weatherdisplay.spinner"
+            android:label="@string/app_name"
+            android:noHistory="true">
+        </activity>
+        <activity android:name="com.example.weatherdisplay.CallPopup" 
+            android:theme="@android:style/Theme.Holo.Light.Dialog"
+            />
+        <receiver android:name=".CallActivity">   
+                <intent-filter>
+                   <action android:name="android.intent.action.PHONE_STATE" />
+                </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

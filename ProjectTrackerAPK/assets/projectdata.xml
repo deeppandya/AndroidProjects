@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <projectdata>
+        <id>1</id>
+        <name>CMAS</name>
+        <description>A Product</description>
+        <bugId>CMAS#1</bugId>
+        <starttime>12:00</starttime>
+        <endtime>14:00</endtime>
+    </projectdata>
+        <projectdata>
+        <id>2</id>
+        <name>PARTERM</name>
+        <description>A Product for the Gaming and Wagering industry.</description>
+        <bugId>PART#1</bugId>
+        <starttime>18:00</starttime>
+        <endtime>20:00</endtime>
+    </projectdata>
+    <projectdata>
+        <id>3</id>
+        <name>FOOTPRINTS</name>
+        <description>Mobile Security App for Android Devices.</description>
+        <bugId>FTP#1</bugId>
+        <starttime>10:00</starttime>
+        <endtime>17:00</endtime>
+    </projectdata>
+</Project>
